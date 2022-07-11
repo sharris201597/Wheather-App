@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/main.css">
+<script src="/JS/main.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+<title>Wheather App</title>
+</head>
+<body>
+    <!-- Search Bar -->
+    <div class="row mt-5">
+            <div class="col-md panel d-flex justify-content-center" >
+                <div class="container d-flex justify-content-center">
+                    <input type="text" name="" id="" class="search-bar" placeholder="Search City">
+                    <button onclick="weather.search()" type="button" class="search-button btn btn-outline-warning"><img src="/images/search.png"  alt=" " class="search-button-img" ></button>
+                </div>
+    
+            </div>
+
+    </div>
+
+    <!-- onclick="weather.getWeather()" -->
+
+
+    <!-- Main Wheather Card -->
+    <div class="row m-2 p-5 d-flex justify-content-around ">
+        <div class="container d-flex justify-content-center p-2" style="max-width: 100%">
+            <div class="col text-align-center" id="right-side">
+                
+                <div class="row pt-4 mt-5 main-info" >
+                    <div class="col mt-4">
+                        <h1 class="ms-5" id="temp" style="font-size: 80px;">82°</h1>
+                    </div>
+                    <div class="col d-flex  align-items-center">
+                        <div class="col ms-5 ">
+                            <img class="icon" src="" alt="icon">
+                            <div class="d-flex mt-3">
+                                <p class="description">Scattered Couldy</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col ms-5 mt-4 ">
+                        <h3 class="city">Atlanta</h3>
+                        <div class="d-flex mt-3">
+                            <p>High:</p>
+                            <p class="high">87°</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Low:</p>
+                            <p class="low">71°</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Humidity:</p>
+                            <p class="humidity">69%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

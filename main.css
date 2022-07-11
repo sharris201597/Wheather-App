@@ -1,0 +1,34 @@
+body{
+}
+
+
+
+.search-bar{
+    background:none ;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px #ccc solid;
+    width: 70%;
+    padding: .5em 3em 0.5em .8em;
+    font-size: 1.1em;
+}
+
+.search-button-img{
+    max-width: 30%;
+}
+
+.search-button{
+    max-width: 80px;
+    margin-top: 25px;
+    margin-left: 3em;
+    border: solid 0.8px lightgrey;
+}
+
+.main-info{
+    background: #000000d0;
+    color: white;
+    border-radius: 30px;
+    height: 250px;
+
+}
+
